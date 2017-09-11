@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px; }
+
+.text-align {
+  text-align: center; }
+
+.banner {
+  background: url(../img/home.jpg) no-repeat center center; }
+  .banner img {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border: 5px solid #fa0e62; }
+  .banner .img {
+    padding-top: 120px;
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 60px; }
+  .banner .col-md-5 a {
+    font-size: 20px;
+    padding: 15px 40px;
+    background-color: #fa0e62;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none; }
+    .banner .col-md-5 a:hover {
+      background-color: #fff;
+      color: #fa0e62; }
+  .banner .col-md-2 a {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-decoration: none; }
+  .banner h3 {
+    padding-top: 20px;
+    color: #fa0e62;
+    font-size: 40px; }
+  .banner p {
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 50px; }
+  .banner i {
+    font-size: 55px;
+    color: #fa0e62;
+    margin-top: 20px; }
+
+.products {
+  background: url(../img/hire.jpg) no-repeat center center; }
+  .products .img2 {
+    padding-top: 50px;
+    background-color: #fff; }
+    .products .img2 h2 {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      width: 80%; }
+    .products .img2 .col-md-4 p {
+      margin-top: 80px;
+      margin-bottom: 50px; }
+    .products .img2 img {
+      margin-right: 4%; }
+    .products .img2 .col-md-8 {
+      padding-top: 20px; }
+    .products .img2 .col-md-8 p {
+      color: #333;
+      font-size: 20px; }
+    .products .img2 .l1, .products .img2 .l2, .products .img2 .l3, .products .img2 .l4, .products .img2 .l5 {
+      float: left;
+      width: 13%;
+      height: 3px; }
+    .products .img2 .l1 {
+      background-color: #0f0; }
+    .products .img2 .l2 {
+      background-color: #ff0; }
+    .products .img2 .l3 {
+      background-color: #F00; }
+    .products .img2 .l4 {
+      background-color: #0ff; }
+    .products .img2 .l5 {
+      background-color: #00f; }
+  .products .img3 {
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 80px; }
+  .products .resume {
+    padding-top: 50px; }
+  .products h2 {
+    font-size: 40px;
+    color: #fa0e62;
+    padding-bottom: 10px; }
+  .products .img3 .col-md-7 p {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 80%; }
+    .products .img3 .col-md-7 p i {
+      float: right; }
+  .products .col-md-5 p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px; }
+  .products .one {
+    width: 80%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .products .one1 {
+    width: 65%;
+    background-color: #EF9F2B;
+    height: 4px;
+    border-radius: 2px; }
+  .products .two {
+    width: 80%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .products .two1 {
+    width: 80%;
+    background-color: #EF9F2B;
+    height: 4px;
+    border-radius: 2px; }
+  .products .three {
+    width: 80%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .products .three1 {
+    width: 75%;
+    background-color: #EF9F2B;
+    height: 4px;
+    border-radius: 2px; }
+  .products .four {
+    width: 80%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .products .four1 {
+    width: 70%;
+    background-color: #EF9F2B;
+    height: 4px;
+    border-radius: 2px; }
+
+.about {
+  margin-top: 70px;
+  margin-bottom: 50px; }
+  .about h2 {
+    font-weight: bold; }
+  .about .col-md-4 img {
+    width: 360px;
+    height: 250px;
+    padding-top: 20px; }
+  .about .col-md-6 img {
+    width: 100%;
+    padding-top: 20px; }
+
+.contact {
+  padding-top: 70px;
+  color: #999;
+  background-color: #222; }
+  .contact h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px; }
+  .contact i {
+    font-size: 25px;
+    width: 30px;
+    margin-right: 20px; }
+  .contact p {
+    margin-bottom: 25px;
+    letter-spacing: 1px; }
+  .contact .from1 {
+    width: 90%;
+    margin: 7px;
+    height: 50px;
+    background-color: #222;
+    border: 3px solid #999;
+    padding: 10px; }
+  .contact .from2 {
+    width: 90%;
+    margin: 7px;
+    height: 100px;
+    background-color: #222;
+    border: 3px solid #999;
+    padding: 10px; }
+  .contact .from3 {
+    margin: 7px;
+    width: 90%;
+    height: 40px;
+    background-color: #fa0e62;
+    border: 3px solid #fa0e62;
+    color: #fff;
+    font-weight: bold; }
+    .contact .from3:hover {
+      background-color: #fff;
+      color: #fa0e62;
+      border: 3px solid #fff; }
